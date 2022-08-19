@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is laucnhed]]>
+    </line>
+    <line>
+      <![CDATA[Window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to application]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on link]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Quitted the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-09T16:36:03 IST" name="Default suite" finished-at="2022-08-09T16:36:23 IST" duration-ms="20782">
+    <groups>
+    </groups>
+    <test started-at="2022-08-09T16:36:03 IST" name="Default test" finished-at="2022-08-09T16:36:23 IST" duration-ms="20782">
+      <class name="book.TC_DWS_06_Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:book.TC_DWS_06_Test@5562c41e]" started-at="2022-08-09T16:35:57 IST" name="launchBrowser" finished-at="2022-08-09T16:36:03 IST" duration-ms="5363" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is laucnhed]]>
+            </line>
+            <line>
+              <![CDATA[Window is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="NavigatingToApplication()[pri:0, instance:book.TC_DWS_06_Test@5562c41e]" started-at="2022-08-09T16:36:03 IST" name="NavigatingToApplication" finished-at="2022-08-09T16:36:21 IST" duration-ms="18890" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigatingToApplication -->
+        <test-method signature="Validate_Books_invalid_credentials()[pri:0, instance:book.TC_DWS_06_Test@5562c41e]" started-at="2022-08-09T16:36:21 IST" name="Validate_Books_invalid_credentials" finished-at="2022-08-09T16:36:23 IST" duration-ms="1784" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_Books_invalid_credentials -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:book.TC_DWS_06_Test@5562c41e]" started-at="2022-08-09T16:36:23 IST" name="logoutOperation" finished-at="2022-08-09T16:36:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="tearDownTheBrowser()[pri:0, instance:book.TC_DWS_06_Test@5562c41e]" started-at="2022-08-09T16:36:23 IST" name="tearDownTheBrowser" finished-at="2022-08-09T16:36:24 IST" duration-ms="903" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Quitted the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownTheBrowser -->
+      </class> <!-- book.TC_DWS_06_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
